@@ -1,1 +1,6 @@
 /* All styles here */
+#app {
+    background-color: #474A50;
+    width: 100vw; /* 100% del ancho de la ventana */
+    height: 100vh; /* 100% de la altura de la ventana */
+}

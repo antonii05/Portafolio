@@ -1,9 +1,14 @@
-<script setup lang="ts"></script>
-
 <template>
     <div>
-        <h1>HOME</h1>
+        <NavbarComponent />
     </div>
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import NavbarComponent from '@/components/NavbarComponent.vue';
+</script>
+
+
+<style scoped>
+
+</style>
