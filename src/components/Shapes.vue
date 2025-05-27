@@ -81,7 +81,12 @@ onMounted(async () => {
     ).filter((el): el is HTMLElement => el instanceof HTMLElement)
 
     shapeRefs.value.forEach((el, i) => {
-        animateShape(shapes[i], el as HTMLElement, maxWidth, maxHeight)
+        const shape = shapes[i]
+        // Posición inicial usando transform
+        gsap.set(el, { x: shape.x, y: shape.y })
+
+        // Animación continua
+        animateShape(shape, el, maxWidth, maxHeight)
     })
 })
 </script>
@@ -93,18 +98,7 @@ onMounted(async () => {
     height: 100%;
 }
 .shape-color {
-    /* Colors */
-    background: #000785;
-    background: -webkit-linear-gradient(
-        90deg,
-        rgba(0, 7, 133, 1) 0%,
-        rgba(0, 255, 217, 1) 100%
-    );
-    background: -moz-linear-gradient(
-        90deg,
-        rgba(0, 7, 133, 1) 0%,
-        rgba(0, 255, 217, 1) 100%
-    );
+    border-radius: 50%;
     background: linear-gradient(
         90deg,
         rgba(0, 7, 133, 1) 0%,
