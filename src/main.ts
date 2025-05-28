@@ -17,6 +17,9 @@ library.add(fas, fab, far)
 import * as gsapPlugins from '@/dependencies/gsap-plugins'
 import { gsap } from 'gsap'
 
+/* Fonts */
+import '@fontsource-variable/source-code-pro';
+
 // Importa los estilos de Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'element-plus/dist/index.css'

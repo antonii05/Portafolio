@@ -5,9 +5,15 @@
         </div>
 
         <div class="header-centered">
-            <h1 class="display-3 fw-bold text-white text-shadow mb-4">
-                Bienvenido a mi Portafolio
-            </h1>
+            <h3 class="display-3 fw-bold text-white text-shadow mb-4">
+                Hey! <br />
+                Soy Antonio Blázquez
+            </h3>
+            <h4 class="text-shadow text-white">
+                Desarrollador de software con más de 1 año en el sector IT.
+                <br />
+                
+            </h4>
         </div>
     </div>
 </template>
@@ -19,8 +25,9 @@ import Shapes from '@/components/Shapes.vue'
 <style scoped>
 .home-container {
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .shapes-background {
@@ -37,7 +44,6 @@ import Shapes from '@/components/Shapes.vue'
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    text-align: center;
 }
 
 .text-shadow {
