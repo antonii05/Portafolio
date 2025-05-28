@@ -26,75 +26,7 @@
 
                 <!-- Contenido de la experiencia laboral -->
                 <div>
-                    <!-- Titulo -->
-                    <h5 class="fw-bold mb-4">Experiencia Laboral</h5>
-
-                    <!-- GPC -->
-                    <div class="bg-primary row">
-                        <div class="col-8">
-                            <p class="mb-1">
-                                <strong>García Peréz Consulting</strong> - Full
-                                Stack Developer
-                            </p>
-                            <p class="mb-1"><em>2024 - 2025</em></p>
-                            <p>
-                                Responsable del desarrollo y mantenimiento de
-                                aplicaciones web modernas utilizando tecnologías
-                                como Laravel y Vue.js.
-                            </p>
-                        </div>
-                        <div
-                            class="col-4 d-flex justify-content-center align-items-center"
-                        >
-                            <div class="d-flex flex-column gap-2">
-                                <div
-                                    class="d-flex justify-content-center gap-2"
-                                >
-                                    <img
-                                        src="@/assets/images/bootstrap.png"
-                                        alt="Bootstrap"
-                                        class="mx-2"
-                                        style="width: 40px; height: 40px"
-                                    />
-                                    <img
-                                        src="@/assets/images/laravel.png"
-                                        alt="Laravel"
-                                        class="mx-2"
-                                        style="width: 40px; height: 40px"
-                                    />
-                                </div>
-                                <div
-                                    class="d-flex justify-content-center gap-2"
-                                >
-                                    <img
-                                        src="@/assets/images/vue.png"
-                                        alt="Vue.js"
-                                        class="mx-2"
-                                        style="width: 40px; height: 40px"
-                                    />
-                                    <img
-                                        src="@/assets/images/postman.png"
-                                        alt="Postman"
-                                        class="mx-2"
-                                        style="width: 40px; height: 40px"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--  -->
-                    <div class="mt-4">
-                        <p class="mb-1">
-                            <strong>Empresa XYZ</strong> - Ingeniero de Software
-                        </p>
-                        <p class="mb-1"><em>2018 - 2021</em></p>
-                        <p>
-                            Encargado de diseñar soluciones escalables y liderar
-                            proyectos de migración tecnológica en entornos
-                            ágiles.
-                        </p>
-                    </div>
+                    <ExperienciaLaboral />
                 </div>
             </div>
         </div>
@@ -102,6 +34,7 @@
 </template>
 
 <script setup lang="ts">
+import ExperienciaLaboral from '@/components/HomeComponents/ExperienciaLaboral.vue';
 import Shapes from '@/components/Shapes.vue'
 </script>
 
