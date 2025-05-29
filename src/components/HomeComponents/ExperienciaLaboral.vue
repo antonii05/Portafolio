@@ -12,11 +12,13 @@
                 </p>
                 <p class="mb-1"><em>2024 - 2025</em></p>
                 <p>
-                    Desarrollador de software en Linux utilizando tecnologías como Laravel | Vue.js | Pinia | Docker | TypeScript .
+                    Desarrollador de software en Linux utilizando tecnologías
+                    como Laravel | Vue.js | Pinia | Docker | TypeScript .
                 </p>
             </div>
-            <div class="d-flex justify-content-center align-items-center w-auto bg-dark rounded-4 bg-dark bg-opacity-50">
-
+            <div
+                class="d-flex justify-content-center align-items-center w-auto bg-dark rounded-4 bg-dark bg-opacity-50 shadow-lg"
+            >
                 <div class="d-flex flex-column gap-2">
                     <div class="d-flex justify-content-center gap-2">
                         <img
@@ -47,14 +49,32 @@
         </div>
 
         <div class="mt-4">
-            <p class="mb-1">
-                <strong>Empresa XYZ</strong> - Ingeniero de Software
-            </p>
-            <p class="mb-1"><em>2018 - 2021</em></p>
-            <p>
-                Encargado de diseñar soluciones escalables y liderar proyectos
-                de migración tecnológica en entornos ágiles.
-            </p>
+            <div
+                class="d-flex flex-row justify-content-between align-items-start gap-3"
+            >
+                <!-- Texto a la izquierda -->
+                <div class="flex-grow-1 col-4">
+                    <p class="mb-1">
+                        <strong>Joyeria A.Blazquez</strong> - Técnico de
+                        Sistemas
+                    </p>
+                    <p class="mb-1"><em>Marzo 2022 - Junio 2022</em></p>
+                    <p>
+                        Técnico de sistemas realizando tareas de mantenimiento y
+                        reparación de equipos informáticos, gestión de redes y
+                        servidores, así como atención al público.
+                    </p>
+                </div>
+
+                <!-- Imagen a la derecha -->
+                <div class="bg-dark rounded-4 bg-opacity-50 shadow-lg p-2">
+                    <img
+                        src="@/assets/images/cisco.png"
+                        alt="Cisco"
+                        class="rotate-image"
+                    />
+                </div>
+            </div>
         </div>
     </div>
 </template>

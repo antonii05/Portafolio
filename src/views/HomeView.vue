@@ -4,9 +4,9 @@
         <Shapes>
             <!-- Contenedor principal centrado y con paddings -->
             <div
-                class="d-flex flex-column justify-content-center align-items-center text-center px-3 centro"
+                class="d-flex flex-column justify-content-center align-items-center px-3 centro"
             >
-                <div class="container">
+                <div>
                     <h3 class="display-4 fw-bold text-white text-shadow">
                         Hey! <br />
                         Soy Antonio Blázquez
@@ -18,14 +18,10 @@
                 </div>
             </div>
 
-            <div
-                class="d-flex justify-content-center align-items-center mt-4 px-3"
-            >
-                <div class="mb-5 d-flex align-items-stretch">
-                    <!-- Línea vertical -->
-                    <div class="vr me-3 bg-dark rounded-3 p-1 me-3"></div>
+            <div class="container mt-5">
 
-                    <!-- Contenido de la experiencia laboral -->
+                <div class="mb-5 d-flex align-items-stretch">
+                    <div class="vr me-3 bg-dark rounded-3 p-1 me-3"></div>
                     <div>
                         <ExperienciaLaboral />
                     </div>
