@@ -8,7 +8,13 @@
                 width: shape.size + 'px',
                 height: shape.size + 'px',
             }"
+            style="z-index: 1"
         ></div>
+
+        <!-- Contenedor del slot con z-index mayor -->
+        <div class="slot-wrapper position-relative" style="z-index: 2">
+            <slot></slot>
+        </div>
     </div>
 </template>
 
