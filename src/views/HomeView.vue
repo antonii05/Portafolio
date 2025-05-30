@@ -27,7 +27,7 @@
                     </div>
                 </div>
 
-                <br>
+                <br />
 
                 <!-- Educacion -->
                 <div class="d-flex align-items-stretch mt-5">
@@ -39,17 +39,15 @@
             </div>
 
             <!-- Proyectos -->
-            <div class="container">
-                
+            <div class="container mt-5 mb-5 text-shadow">
+                <Projects />
             </div>
         </Shapes>
     </div>
 </template>
 
 <script setup lang="ts">
-import ExperienciaLaboral from '@/components/HomeComponents/ExperienciaLaboral.vue'
-import Education from '@/components/HomeComponents/Education.vue'
-import Shapes from '@/components/Shapes.vue'
+import { Shapes, ExperienciaLaboral, Education, Projects } from '@/components'
 </script>
 
 <style scoped>

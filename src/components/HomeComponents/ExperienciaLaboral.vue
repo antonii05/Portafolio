@@ -81,30 +81,11 @@
 
 <script setup lang="ts">
 import { onMounted } from 'vue'
+import { useMain } from '@/composables/useMain'
 
-const rotateImages = () => {
-    const images = document.querySelectorAll<HTMLImageElement>('.rotate-image')
-
-    images.forEach((image) => {
-        const angle = Math.floor(Math.random() * 61) - 30 // de -30° a +30°
-        image.style.setProperty('--initial-rotation', `${angle}deg`)
-    })
-}
+const { rotateImages } = useMain()
 
 onMounted(() => {
     rotateImages()
 })
 </script>
-
-<style scoped>
-img.rotate-image {
-    transition: transform 0.5s ease-in-out;
-    width: 40px;
-    height: 40px;
-    transform: rotate(var(--initial-rotation, 0deg));
-}
-
-img.rotate-image:hover {
-    transform: rotate(var(--initial-rotation, 0deg)) scale(1.3);
-}
-</style>
