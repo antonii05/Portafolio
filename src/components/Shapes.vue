@@ -23,7 +23,7 @@ import { ref, reactive, onMounted, nextTick } from 'vue'
 import gsap from 'gsap'
 import type { Shape } from '@/models/Shape'
 
-const numShapes = 7
+const numShapes = 4
 const shapes = reactive<Shape[]>([])
 const shapeRefs = ref<HTMLElement[]>([])
 const containerRef = ref<HTMLElement | null>(null)
@@ -63,7 +63,7 @@ const animateShape = (
     gsap.to(el, {
         x: newX,
         y: newY,
-        duration: 2 + Math.random(),
+        duration: 7 + Math.random(),
         ease: 'power2.inOut',
         onComplete: () => animateShape(shape, el, maxWidth, maxHeight),
     })

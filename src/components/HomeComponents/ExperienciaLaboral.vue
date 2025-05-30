@@ -17,7 +17,7 @@
                 </p>
             </div>
             <div
-                class="d-flex justify-content-center align-items-center w-auto bg-dark rounded-4 bg-dark bg-opacity-50 shadow-lg"
+                class="d-flex justify-content-center align-items-center w-auto rounded-4 bg-dark bg-opacity-50 shadow-lg"
             >
                 <div class="d-flex flex-column gap-2">
                     <div class="d-flex justify-content-center gap-2">
