@@ -1,7 +1,10 @@
 <template>
     <div>
         <!-- Titulo -->
-        <h5 class="fw-bold mb-4">Experiencia Laboral</h5>
+        <h5 class="fw-bold mb-4">
+            <font-awesome-icon icon="terminal" class="mx-2"/>
+            Experiencia Laboral
+        </h5>
 
         <!-- GPC -->
         <div class="row">

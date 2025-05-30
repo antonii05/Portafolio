@@ -34,7 +34,9 @@
 
             <!-- Columna de texto a la derecha (más ancha) -->
             <div class="col d-flex flex-column align-items-end text-end">
-                <h5 class="fw-bold mb-4">Educación</h5>
+                <h5 class="fw-bold mb-4">
+                    <font-awesome-icon icon="book-bookmark" class="mx-2" />
+                    Educación</h5>
                 <div>
                     <p class="mb-1">
                         <strong>IES Venancio Blanco | Salamanca</strong> -

@@ -42,12 +42,24 @@
             <div class="container mt-5 mb-5 text-shadow">
                 <Projects />
             </div>
+
+            <!-- About Me -->
+
+            <div class="container mt-5 mb-5 text-shadow">
+                <AboutMe />
+            </div>
         </Shapes>
     </div>
 </template>
 
 <script setup lang="ts">
-import { Shapes, ExperienciaLaboral, Education, Projects } from '@/components'
+import {
+    Shapes,
+    ExperienciaLaboral,
+    Education,
+    Projects,
+    AboutMe,
+} from '@/components'
 </script>
 
 <style scoped>
@@ -55,7 +67,7 @@ import { Shapes, ExperienciaLaboral, Education, Projects } from '@/components'
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
 }
 .text-shadow {
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 .centro {
     margin-top: 15%;

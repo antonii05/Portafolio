@@ -8,7 +8,10 @@
 
         <!-- Título -->
         <div class="d-flex align-items-center mb-4">
-            <h5 class="fw-bold mb-0">Proyectos Destacados</h5>
+            <h5 class="fw-bold mb-0">
+                <font-awesome-icon icon="code" class="mx-2"/>
+                Proyectos Destacados
+            </h5>
         </div>
 
         <!-- Contenido debajo del título -->
@@ -23,7 +26,7 @@
                     y articulos de joyería. <br />
                     Realizado mediante multirepositorio para dividir el Frontend
                     del Backend
-                    <a href="https://github.com/antonii05/TwinJoya-Backend">
+                    <a href="https://github.com/antonii05/TwinJoya-Backend" target="_blank">
                         <font-awesome-icon
                             icon="link"
                             class="rounded-3 bg-dark bg-opacity-50 p-1 text-white"
@@ -42,7 +45,7 @@
                 <p>
                     Proyecto dedicado exclusiavmente a la autentificacion de
                     usuarios con Laravel & JWT
-                    <a href="https://github.com/antonii05/AuthProject.git">
+                    <a href="https://github.com/antonii05/AuthProject.git" target="_blank">
                         <font-awesome-icon
                             icon="link"
                             class="rounded-3 bg-dark bg-opacity-50 p-1 text-white"
