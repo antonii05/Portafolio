@@ -6,16 +6,7 @@
             <div
                 class="d-flex flex-column justify-content-center align-items-center px-3 centro"
             >
-                <div>
-                    <h3 class="display-4 fw-bold text-white text-shadow-title">
-                        Hey! <br />
-                        Soy Antonio Blázquez
-                    </h3>
-                    <h4 class="text-shadow-title text-white mb-4">
-                        Desarrollador de software con más de 1 año en el sector
-                        IT.
-                    </h4>
-                </div>
+                <Tittle />
             </div>
 
             <div class="container mt-5 mb-5 text-shadow">
@@ -59,13 +50,11 @@ import {
     Education,
     Projects,
     AboutMe,
+    Tittle
 } from '@/components'
 </script>
 
 <style scoped>
-.text-shadow-title {
-    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
-}
 .text-shadow {
     text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
