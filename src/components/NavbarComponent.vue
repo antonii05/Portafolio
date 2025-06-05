@@ -1,50 +1,43 @@
 <template>
-    <!-- TODO ANIADIR   -->
-    <nav class="navbar navbar-expand-lg opacity-100">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#RRSS"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="RRSS">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <!-- NONE -->
-                </ul>
-                <!-- RR.SS -->
-                <div class="d-flex">
-                    <h3 class="mx-2 rrss">
-                        <a href="https://github.com/antonii05"
-                            ><font-awesome-icon
-                                :icon="['fab', 'github-alt']"
-                                style="color: #000"
-                        /></a>
-                    </h3>
-                    <h3 class="mx-2 rrss">
-                        <a href="https://www.linkedin.com/in/antonio-josebj/"
-                            ><font-awesome-icon
-                                :icon="['fab', 'linkedin']"
-                                style="color: #0e76a8"
-                        /></a>
-                    </h3>
-                </div>
-            </div>
+    <nav
+        class="nav-vertical shadow-lg bg-light bg-opacity-50 rounded-4 p-2 d-flex flex-column align-items-start text-shadow"
+    >
+        <div class="mx-2">
+            <a class="nav-link my-2" href="#experiencia">
+                <font-awesome-icon icon="terminal" class="me-2" />
+                Experiencia
+            </a>
+
+            <a class="nav-link my-2" href="#educacion">
+                <font-awesome-icon icon="book-bookmark" class="me-2" />
+                Educación
+            </a>
+
+            <a class="nav-link my-2" href="#proyectos">
+                <font-awesome-icon icon="code" class="me-2" />
+                Proyectos
+            </a>
+
+            <a class="nav-link my-2" href="#sobre-mi">
+                <font-awesome-icon icon="user" class="me-2" />
+                Sobre mí
+            </a>
+
+            <a class="nav-link my-2" href="mailto:">
+                <font-awesome-icon icon="paper-plane" class="me-2" />
+                Contacto
+            </a>
         </div>
     </nav>
 </template>
 
-<script setup lang="ts"></script>
-
 <style scoped>
-.rrss:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.3);
+.nav-vertical {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 </style>
