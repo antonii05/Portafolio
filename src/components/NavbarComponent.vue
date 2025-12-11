@@ -23,7 +23,7 @@
                 Sobre mí
             </a>
 
-            <a class="nav-link my-2" href="mailto:">
+            <a class="nav-link my-2" href="mailto:antblajim@gmail.com">
                 <font-awesome-icon icon="paper-plane" class="me-2" />
                 Contacto
             </a>

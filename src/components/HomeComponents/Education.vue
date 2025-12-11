@@ -8,24 +8,24 @@
             >
                 <div class="d-flex justify-content-center gap-3 mb-3 flex-wrap">
                     <img
-                        src="@/assets/images/illustrator.png"
+                        src="@/assets/images/laravel.svg"
                         alt="Illustrator"
                         class="rotate-image"
                     />
                     <img
-                        src="@/assets/images/unity.png"
+                        src="@/assets/images/figma.png"
                         alt="Unity"
                         class="rotate-image"
                     />
                 </div>
                 <div class="d-flex justify-content-center gap-3 flex-wrap">
                     <img
-                        src="@/assets/images/c-sharp.png"
+                        src="@/assets/images/tailwind.png"
                         alt="C#"
                         class="rotate-image"
                     />
                     <img
-                        src="@/assets/images/photoshop.png"
+                        src="@/assets/images/illustrator.png"
                         alt="PhotoShop"
                         class="rotate-image"
                     />
@@ -36,17 +36,14 @@
             <div class="col d-flex flex-column align-items-end text-end">
                 <h5 class="fw-bold mb-4">
                     <font-awesome-icon icon="book-bookmark" class="mx-2" />
-                    Educación</h5>
+                    Educación
+                </h5>
                 <div>
                     <p class="mb-1">
                         <strong>IES Venancio Blanco | Salamanca</strong> -
-                        Desarrollo de videojuegos y realidad virtual
+                        Desarrollo de aplicaciones Web
                     </p>
-                    <p class="mb-1"><em>2024 - (Actualidad)</em></p>
-                    <p>
-                        Formación especializada en el desarrollo de videojuegos
-                        e incluyendo programación, diseño gráfico y modelado 3D.
-                    </p>
+                    <p class="mb-1"><em>2025 - (Actualidad)</em></p>
                 </div>
             </div>
         </div>

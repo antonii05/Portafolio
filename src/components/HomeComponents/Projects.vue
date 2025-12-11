@@ -14,7 +14,7 @@
             </h5>
         </div>
 
-        <!-- Contenido debajo del título -->
+        <!-- TwinJoya -->
         <div class="row">
             <div class="col-8">
                 <p class="mb-1">
@@ -36,7 +36,7 @@
             </div>
         </div>
 
-        <!-- Contenido debajo del título -->
+        <!-- AuthProject -->
         <div class="row mt-2">
             <div class="col-8">
                 <p class="mb-1">
@@ -51,6 +51,19 @@
                             class="rounded-3 bg-dark bg-opacity-50 p-1 text-white"
                         />
                     </a>
+                </p>
+            </div>
+        </div>
+
+         <!-- EchoNow -->
+        <div class="row mt-2">
+            <div class="col-8">
+                <p class="mb-1">
+                    <strong>EchoNow</strong>
+                    <font-awesome-icon class="ms-2" icon="fa-solid fa-person-digging" />
+                </p>
+                <p>
+                    <small>En desarrollo...</small>
                 </p>
             </div>
         </div>
