@@ -30,7 +30,7 @@
                             class="mx-2 rotate-image"
                         />
                         <img
-                            src="@/assets/images/laravel.png"
+                            src="@/assets/images/laravel.svg"
                             alt="Laravel"
                             class="mx-2 rotate-image"
                         />
